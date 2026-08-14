@@ -1,31 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t d">
 <title id="t">机场帮 GitHub 主页横幅（浅色）</title>
-<desc id="d">深藏青标题「机场帮」配金色航线弧线与三个航点，下方是四类精选名单的胶囊标签。</desc>
+<desc id="d">深藏青标题「机场帮」配金色航线弧线与三个航点，虚线沿航线流动，纸飞机轻微起伏，下方是四类精选名单的胶囊标签。</desc>
 <defs>
-<style>text{font-family:system-ui,-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif}</style>
+<style>
+text{font-family:system-ui,-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif}
+.wp,.plane{transform-box:fill-box;transform-origin:center}
+.route{animation:flow 14s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-224}}
+.wp{animation:pulse 3.2s ease-in-out infinite}
+.wp2{animation-delay:1.1s}
+.wp3{animation-delay:2.2s}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.3)}}
+.plane{animation:drift 3.6s ease-in-out infinite}
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion:reduce){.route,.wp,.plane{animation:none}}
+</style>
 </defs>
 <rect width="1200" height="420" fill="#F7F8FC"/>
 <rect x="0" y="0" width="1200" height="6" fill="#16213E"/>
 
-<!-- 右侧航线视觉 -->
-<path d="M660 340 Q 860 80 1130 120" stroke="#D4A548" stroke-width="5" fill="none" stroke-dasharray="2 14" stroke-linecap="round"/>
-<circle cx="700" cy="292" r="9" fill="#FFFFFF" stroke="#D4A548" stroke-width="4"/>
-<circle cx="880" cy="152" r="9" fill="#FFFFFF" stroke="#20B8A6" stroke-width="4"/>
-<circle cx="1058" cy="112" r="9" fill="#FFFFFF" stroke="#16213E" stroke-width="4"/>
-<!-- 纸飞机 -->
+<path class="route" d="M660 340 Q 860 80 1130 120" stroke="#D4A548" stroke-width="5" fill="none" stroke-dasharray="2 14" stroke-linecap="round"/>
+<circle class="wp" cx="700" cy="292" r="9" fill="#FFFFFF" stroke="#D4A548" stroke-width="4"/>
+<circle class="wp wp2" cx="880" cy="152" r="9" fill="#FFFFFF" stroke="#20B8A6" stroke-width="4"/>
+<circle class="wp wp3" cx="1058" cy="112" r="9" fill="#FFFFFF" stroke="#16213E" stroke-width="4"/>
+<g class="plane">
 <g transform="translate(1108 108) rotate(18)">
 <path d="M0 0 L46 14 L8 30 L12 16 Z" fill="#16213E"/>
+</g>
 </g>
 <text x="700" y="262" font-size="21" fill="#5A6B87" text-anchor="middle">收录</text>
 <text x="880" y="196" font-size="21" fill="#5A6B87" text-anchor="middle">教程</text>
 <text x="1058" y="156" font-size="21" fill="#5A6B87" text-anchor="middle">知识库</text>
 
-<!-- 左侧标题 -->
 <text x="84" y="120" font-size="27" font-weight="600" letter-spacing="4" fill="#20B8A6">JICHANGHELP.COM</text>
 <text x="84" y="215" font-size="92" font-weight="800" fill="#16213E">机场帮</text>
 <text x="84" y="272" font-size="29" fill="#5A6B87">机场导航、老牌机场推荐与全平台客户端教程</text>
 
-<!-- 四类胶囊 -->
 <g transform="translate(84 310)">
 <rect width="148" height="52" rx="26" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
 <text x="74" y="34" font-size="24" fill="#16213E" text-anchor="middle">老牌机场</text>
@@ -38,7 +48,7 @@
 <rect width="148" height="52" rx="26" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
 <text x="74" y="34" font-size="24" fill="#16213E" text-anchor="middle">稳定机场</text>
 </g>
-<g transform="translate(600 310) ">
+<g transform="translate(600 310)">
 <rect width="148" height="52" rx="26" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
 <text x="74" y="34" font-size="24" fill="#16213E" text-anchor="middle">高端机场</text>
 </g>

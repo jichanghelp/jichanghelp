@@ -27,14 +27,13 @@
 
 ## 最近在写
 
-**[单线程和多线程测速差在哪，为什么测速好看晚上却卡](https://www.jichanghelp.com/articles/single-vs-multi-thread-speedtest/)**
-同一条线路同一时刻，Speedtest 多连接跑出 386 Mbps，切成单连接只剩 152 Mbps。差的不是线路变了，是测法变了。
+<!-- LATEST:START -->
+- **[单线程和多线程测速差在哪，为什么测速好看晚上却卡](https://www.jichanghelp.com/articles/single-vs-multi-thread-speedtest/)** · 2026-08-13
+- **[DNS 泄漏时运营商能看到什么，看不到什么](https://www.jichanghelp.com/articles/dns-leak-what-isp-sees/)** · 2026-08-13
+- **[一家机场靠不靠谱，自己能查到哪一步](https://www.jichanghelp.com/articles/how-we-verify-brands/)** · 2026-08-13
+<!-- LATEST:END -->
 
-**[DNS 泄漏时运营商能看到什么，看不到什么](https://www.jichanghelp.com/articles/dns-leak-what-isp-sees/)**
-域名查询绕开隧道跑到运营商那边，等于交出一份你访问过的网站清单。网页内容还在隧道里，但清单本身已经够说明问题。
-
-**[一家机场靠不靠谱，自己能查到哪一步](https://www.jichanghelp.com/articles/how-we-verify-brands/)**
-核一家机场靠的是公开信息里查得到的那几样，历史公告、套餐页旧版本、曾用名、优惠码和套餐网格，你自己也能走一遍。
+每天早上从站点 RSS 自动同步。
 
 ## 内容仓库
 
@@ -54,6 +53,13 @@
 - 部分品牌入口为推广链接，本站可能获得佣金，规则见[推广披露](https://www.jichanghelp.com/disclosure/)
 
 完整规则见[编辑政策](https://www.jichanghelp.com/editorial-policy/)。内容纠错走[联系方式](https://www.jichanghelp.com/contact/)，纠错类邮件优先处理。
+
+## 贡献轨迹
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jichanghelp/jichanghelp/output/github-snake-dark.svg">
+<img src="https://raw.githubusercontent.com/jichanghelp/jichanghelp/output/github-snake.svg" alt="贪吃蛇吃掉贡献格的动画，每天自动重新生成" width="100%">
+</picture>
 
 ---
 
