@@ -50,9 +50,9 @@
 <h3>最近在写</h3>
 
 <!-- LATEST:START -->
-<p><b><a href="https://www.jichanghelp.com/articles/single-vs-multi-thread-speedtest/">单线程和多线程测速差在哪，为什么测速好看晚上却卡</a></b><br><sub>2026-08-13</sub></p>
+<p><b><a href="https://www.jichanghelp.com/articles/app-not-using-proxy/">软件不走代理怎么办，按四步顺序排查</a></b><br><sub>2026-08-13</sub></p>
+<p><b><a href="https://www.jichanghelp.com/articles/discontinued-clients/">你装的那个客户端，可能已经没人维护了</a></b><br><sub>2026-08-13</sub></p>
 <p><b><a href="https://www.jichanghelp.com/articles/dns-leak-what-isp-sees/">DNS 泄漏时运营商能看到什么，看不到什么</a></b><br><sub>2026-08-13</sub></p>
-<p><b><a href="https://www.jichanghelp.com/articles/how-we-verify-brands/">一家机场靠不靠谱，自己能查到哪一步</a></b><br><sub>2026-08-13</sub></p>
 <!-- LATEST:END -->
 
 <sub>每天早上从站点 RSS 自动同步</sub>
