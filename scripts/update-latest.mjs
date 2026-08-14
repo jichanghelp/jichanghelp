@@ -28,7 +28,7 @@ const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 3).map((m)
 
 if (items.length === 0) process.exit(0);
 
-const list = items.map((i) => `- **[${i.title}](${i.link})**${i.date ? ` · ${i.date}` : ''}`).join('\n');
+const list = items.map((i) => `<p><b><a href=\"${i.link}\">${i.title}</a></b>${i.date ? `<br><sub>${i.date}</sub>` : ''}</p>`).join('\n');
 const md = await readFile(README, 'utf8');
 const next = md.replace(
 	/<!-- LATEST:START -->[\s\S]*?<!-- LATEST:END -->/,
