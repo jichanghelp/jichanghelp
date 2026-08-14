@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-labelledby="t d">
+<title id="t">机场帮内容规模数字条</title>
+<desc id="d">四张数字卡：收录品牌 41 家、站长实测 4 家、图文教程 29 篇、术语词条 25 个。</desc>
+<defs>
+<style>text{font-family:system-ui,-apple-system,'Segoe UI','Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif}</style>
+</defs>
+<rect width="1200" height="170" fill="#F7F8FC"/>
+
+<g transform="translate(24 20)">
+<rect width="270" height="130" rx="16" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
+<rect x="0" y="0" width="270" height="6" rx="3" fill="#16213E"/>
+<text x="32" y="72" font-size="52" font-weight="800" fill="#16213E">41 家</text>
+<text x="32" y="108" font-size="22" fill="#5A6B87">收录品牌 · 统一字段</text>
+</g>
+
+<g transform="translate(318 20)">
+<rect width="270" height="130" rx="16" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
+<rect x="0" y="0" width="270" height="6" rx="3" fill="#D4A548"/>
+<text x="32" y="72" font-size="52" font-weight="800" fill="#16213E">4 家</text>
+<text x="32" y="108" font-size="22" fill="#5A6B87">站长实测 · 注明日期</text>
+</g>
+
+<g transform="translate(612 20)">
+<rect width="270" height="130" rx="16" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
+<rect x="0" y="0" width="270" height="6" rx="3" fill="#20B8A6"/>
+<text x="32" y="72" font-size="52" font-weight="800" fill="#16213E">29 篇</text>
+<text x="32" y="108" font-size="22" fill="#5A6B87">教程 · 16 篇实拍截图</text>
+</g>
+
+<g transform="translate(906 20)">
+<rect width="270" height="130" rx="16" fill="#FFFFFF" stroke="#DCE2EE" stroke-width="2"/>
+<rect x="0" y="0" width="270" height="6" rx="3" fill="#E07A3F"/>
+<text x="32" y="72" font-size="52" font-weight="800" fill="#16213E">25 个</text>
+<text x="32" y="108" font-size="22" fill="#5A6B87">术语 · 逐条拆常见误读</text>
+</g>
+</svg>
